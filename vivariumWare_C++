@@ -1,0 +1,870 @@
+/************************************************
+*NOME PROGRAMMA:COPIA IL COMPITO
+*CAPO GRUPPO: VASCA ALESSANDRO
+*COMPAGNO DI GRUPPO: BORRILLO EMANUELE
+*DATA USCITA: 19/03/2021
+************************************************/
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <conio.h>
+#include <string.h>
+
+int main(int argc, char *argv[]) 
+
+{	
+
+	int  n, i;
+
+	
+    int b1;  
+	int b2;  
+    int b3;  
+	int b4;
+	int b5; 
+	int b6; 
+	int b7;
+	int b8; 
+	int b9; 
+	int b10; 
+	int b11; 
+	int b12; 
+	
+	int   marco[n],    antonio[n], giovanni[n];
+	int  nicola[n],  christian[n],   jacopo[n], manuel[n];
+	int gabriel[n], alessandro[n], emanuele[n],  luigi[n] ;
+	
+    srand(time(NULL));
+    
+    
+	
+printf("\n\n\n\n\n\n\n\n\n\n");
+printf("                             °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°    °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°    ");
+printf("                            °   |   |      BRAVO HAI STUDIATO        *   *        HAI COPIATO MI DISPIACE           °# °  ");
+printf("                            °   |   |                                 *°*                                           °## ° ");
+printf("                            °   |   |                                 * *                                           °## ° ");
+printf("                            °   |   |                                 * *                                           °## ° ");
+printf("                            °    | |                                  * *                                           °## ° ");
+printf("                            °     |                                   * *                                           °## ° ");
+printf("                            °                                         * *                                           °## ° ");
+printf("                            °                                         * *                                           °## ° ");
+printf("                            °                       °                 * *                   °                       °## ° ");
+printf("                            °        °°°°°         °   °°   °°°°      * *       °°°°       °    °°   °°°°           °## ° ");
+printf("                            °       °     °       °   ° °  °    °     * *      °    °     °    ° °  °    °          °## °  ");
+printf("                            °       °     °      °   °  ° °      °    * *          °     °    °  ° °      °         °## °  ");
+printf("                            °        °°°°°°     °       ° °      °    * *         °     °        ° °      °         °## °  ");            
+printf("                            °             °    °        ° °      °    * *        °     °         ° °      °         °## °  ");
+printf("                            °             °   °         °  °    °     * *       °     °          °  °    °          °## °  ");
+printf("                            °        °°°°°°  °          °   °°°°      * *      °°°°° °           °   °°°°           °## °  ");
+printf("                            °               °                         * *           °                               °## °  ");
+printf("                            °              °                          * *                                           °## °  ");
+printf("                            °                                         * *                                           °## °  ");
+printf("                            °                                         * *                                           °## °  ");
+printf("                            °                                         * *                                           °## °  ");
+printf("                            °                                         * *                                           °## °  ");
+printf("                            °                                         * *                                           °## °  ");
+printf("                            °                                         * *                                           °## °  ");
+printf("                            °                                         * *                                           °## °  ");
+printf("                            °                                         *°*                                           °## °  ");
+printf("                            °                                        *   *                                          °# °   ");
+printf("                             °°°°°°°°°°°°°°°°°°°°°°°°°°°°  - STUDIA CHE E' MEGLIO -  °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°     ");
+sleep(5);
+system("cls");
+
+
+do
+{
+
+    
+textcolor(4);
+	printf("                   \n\n\n\n\n\n                      ATTENZIONE \n\n              I comandi sono: \n");
+	printf("              # per giocare premere 1, \n ");
+	printf("             # per informaziomi inerente al gioco, premere 0. \n\n");
+	printf(" # Gioca: \n # info:  \n ---------->   ");
+   	scanf ("%d",&n );
+   	
+switch(n)
+   	{
+case 0:
+   	printf("  \n\n\n          Il gioco e' basato sul riuscire a copiare un compito in classe, \n");         
+	printf("          in una classe formata da 11 alunni, \n");
+	printf("          in base alle percentuali dovrai riuscire a prendere un bel voto \n ");
+	printf("         fai la scelta giusta mi raccomando \n\n\n          BUON COMPITO ;) \n\n\n" );
+   	break;
+   		
+case 1:
+
+
+	printf("\n\n*****************************************************************************************************************************************************************************************************\n");
+	printf("*********************************####################################################################################################################################********************************\n\n");
+	printf("\n                            scegli un banco da 1 a 11 per copiare , ad esempio se premi 1 sara' scelto il primo banco ed il ragazzo della sua postazione \n");
+	printf("\n                                                                            ATTENZIONE                                                                     ");
+	printf("\n                                scegli il banco in base al rendimento che ti verra' dato ma attento/a alcuni hanno compiato per prendere un bel voto14:                                             ");
+    printf("\n\n*****************************####################################################################################################################################************************************\n");
+    printf("*****************************************************************************************************************************************************************************************************\n");
+   			
+    printf("\n\n\n\n\n");
+    printf("                           MARCO                                           ANTONIO                                      GIOVANNI                                       IO           \n");
+	printf("                **************************                      **************************                    **************************                   **************************\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *            1           *                      *            2           *                    *           3            *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                **************************                      **************************                    **************************                   **************************\n\n\n");
+	printf("                          NICOLA                                        CHRISTIAN                                     JACOPO                                      MANUEL        \n");
+    printf("                **************************                      **************************                    **************************                   **************************\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *           4            *                      *            5           *                    *            6           *                   *            7           *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                **************************                      **************************                    **************************                   **************************\n\n\n");
+	printf("                          GABRIEL                                        ALESSANDRO                                    EMANUELE                                       LUIGI       \n");
+	printf("                **************************                      **************************                    **************************                   **************************\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *            8           *                      *           9            *                    *            10          *                   *            11          *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                *                        *                      *                        *                    *                        *                   *                        *\n");
+	printf("                **************************                      **************************                    **************************                   **************************\n\n\n\n\n");
+	
+	for(i=0;i<n;i++)
+	
+{
+				marco[i]=1+rand()%100;
+				antonio[i]=1+rand()%70;
+				giovanni[i]=1+rand()%65;
+				nicola[i]=1+rand()%100;
+				christian[i]=1+rand()%100;
+				jacopo[i]=1+rand()%44;
+				manuel[i]=1+rand()%100;
+				gabriel[i]=1+rand()%60;
+				alessandro[i]=1+rand()%100;
+				emanuele[i]=1+rand()%100;
+				luigi[i]=1+rand()%100;
+				
+				
+				
+				printf("                                                STATISTICHE RENDIMENTO SCOLASTICO\n\n\n\n");
+				printf("        MARCO = percentuale voto -->%d punti           ANTONIO = percentuale voto -->%d punti              GIOVANNI = percentuale voto -->%d punti                                          \n\n",marco[i],antonio[i],giovanni[i]);
+				printf("       NICOLA = percentuale voto -->%d punti         CHRISTIAN = percentuale voto -->%d punti                JACOPO = percentuale voto -->%d punti         MANUEL = percentuale voto -->%d punti  \n\n",nicola[i],christian[i],jacopo[i],manuel[i]);
+				printf("      GABRIEL = percentuale voto -->%d punti        ALESSANDRO = percentuale voto -->%d punti              EMANUELE = percentuale voto -->%d punti          LUIGI = percentuale voto -->%d punti  \n\n\n",gabriel[i],alessandro[i],emanuele[i],luigi[i]);
+}
+
+
+    printf("che banco vuoi scegliere??.------>");
+	scanf("%d",&n);
+	sleep(0);
+	system("cls");
+	
+    switch(n)
+
+{
+	case 1:
+
+	    b1=rand()%2+1;
+		if(b1==1)
+		
+		{
+		
+				printf("\n\n\n"                                                                                                                                    );
+				
+				printf("\n\n                             in questo banco c'e' MARCO \n\n\n\n\n"                                                                    );
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else 
+		 
+        {
+        	
+   		            printf("\n\n\n"                                                                                                                                                          );
+        
+		            printf("\n\n                            in questo banco c'e' MARCO mi sa che hai copiato  \n\n\n\n\n"                                                                                           );
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(4);
+                system("cls");
+				break;
+				
+		case 2:
+			
+	    b2=rand()%2+1;
+		if(b2==1)
+		
+		{
+		
+				
+				printf("\n\nin questo banco c'e' ANTONIO \n\n\n\n\n");
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else
+		 
+        {
+        	        printf("\n\nin questo banco c'e' ANTONIO \n\n\n\n\n");
+        	
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(3);
+                system("cls");
+				break;
+				
+				
+		case 3:
+			
+		b3=rand()%2+1;
+		if(b3==1)
+		
+		{
+		
+				
+				printf("\n\nin questo banco c'e' GIOVANNI \n\n\n\n\n");
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else
+		 
+        {
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(3);
+                system("cls");
+				break;
+				
+				
+				case 4:
+					
+		b4=rand()%2+1;
+		if(b4==1)
+		
+		{
+		
+				
+				printf("\n\nin questo banco c'e' NICOLA \n\n\n\n\n");
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else
+		 
+        {
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(3);
+                system("cls");
+				break;
+				
+				
+				case 5:
+		b5=rand()%2+1;
+		if(b5==1)
+		
+		{
+		
+				
+				printf("\n\nin questo banco c'e' CHRISTIAN \n\n\n\n\n");
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else
+		 
+        {
+        	        printf("\n\nin questo banco c'e' CHRISTIAN \n\n\n\n\n");
+        	
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(3);
+                system("cls");
+				break;
+				
+				
+				
+				case 6:
+		b6=rand()%2+1;
+		if(b6==1)
+		
+		{
+		
+				
+				printf("\n\nin questo banco c'e' JACOPO \n\n\n\n\n");
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else
+		 
+        {
+        	printf("\n\nin questo banco c'e' JACOPO \n\n\n\n\n");
+        	
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(3);
+                system("cls");
+				break;
+				
+				
+				
+				
+				case 7:
+		b7=rand()%2+1;
+		if(b7==1)
+		
+		{
+		
+				
+				printf("\n\nin questo banco c'e' MANUEL \n\n\n\n\n");
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else
+		 
+        {
+        	printf("\n\nin questo banco c'e' MANUEL \n\n\n\n\n");
+        	
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(3);
+                system("cls");
+				break;
+				
+				
+				
+				case 8:
+		b8=rand()%2+1;
+		if(b8==1)
+		
+		{
+		
+				
+				printf("\n\nin questo banco c'e' GABRIEL \n\n\n\n\n");
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else
+		 
+        {
+        	
+        	printf("\n\nin questo banco c'e' GABRIEL \n\n\n\n\n");
+        	
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(3);
+                system("cls");
+				break;
+				
+				
+				
+				
+				case 9:
+		b9=rand()%2+1;
+		if(b9==1)
+		
+		{
+		
+				
+				printf("\n\nin questo banco c'e' ALESSANDRO \n\n\n\n\n");
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else
+		 
+        {
+        	
+        	printf("\n\nin questo banco c'e' ALESSANDRO \n\n\n\n\n");
+        	
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(3);
+                system("cls");
+				break;
+				
+				case 10:
+					
+		b10=rand()%2+1;
+		if(b10==1)
+		
+		{
+		
+				
+				printf("\n\nin questo banco c'e' EMANUELE \n\n\n\n\n");
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else
+		 
+        {
+        	
+        	printf("\n\nin questo banco c'e' EMANUELE \n\n\n\n\n");
+        	
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(3);
+                system("cls");
+				break;
+				
+				
+				case 11:
+		b11=rand()%2+1;
+		if(b11==1)
+		
+		{
+		
+				
+				printf("\n\nin questo banco c'e' LUIGI \n\n\n\n\n");
+				
+                printf("  ####    ####     #      #   #####   #        #      #      #   #######   ##      #    ###########    #                                \n");
+                printf(" #       #    #    # #  # #   #    #  #               # #  # #   #         # #     #         #                                          \n");
+                printf(" #      #      #   #  ##  #   #    #  #        #      #  ##  #   #         #  #    #         #         #                                \n");
+                printf(" #      #      #   #      #   #####   #        #      #      #   #######   #   #   #         #         #                                \n");
+                printf(" #      #      #   #      #   #       #        #      #      #   #         #    #  #         #         #                                \n");
+                printf(" #       #    #    #      #   #       #        #      #      #   #         #     # #         #         #                                \n");
+                printf("  ####    ####     #      #   #       ######   #      #      #   #######   #      ##         #         #                                \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf("                                                                                                                                        \n");
+                printf(" #     #       ##        #         #####   #####    ######    #####   ####           ##    ##                                           \n");
+                printf(" #     #      #  #                 #    #  #    #   #        #       #    #         # #   #  #                                          \n");
+                printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       #  #  #    #                                         \n");
+                printf(" #######    ########     #         #####   #####    ######    ####  #      #          #  #    #                                         \n");
+                printf(" #     #   #        #    #         #       # #      #             # #      #          #  #    #                                         \n");
+                printf(" #     #  #          #   #         #       #  #     #             #  #    #           #   #  #                                          \n");
+                printf(" #     # #            #  #         #       #   #    ######   #####    ####            #    ##                                           \n"); 
+        }
+                
+        else
+		 
+        {
+        	
+        	printf("\n\nin questo banco c'e' LUIGI \n\n\n\n\n");
+        	
+                	printf("                               *****                                                                                                                          \n");
+                    printf(" ****    ****    **           ********           **        *********     *****        **           *****            ***********    ******************         \n");
+                    printf(" *****  *****                 **     **                   ***********    *******                  *******          ***********     ******************         \n");
+                    printf(" **   **   **    **           **       **        **      **              **    **     **         ***   ***        ***              ***                        \n");
+                    printf(" **        **    **           **       **        **      **              **     **    **        ***     ***      ***               ***                        \n");
+                    printf(" **        **    **           **       **        **       **********     **      **   **       ***       ***     ***               ******************         \n");
+                    printf(" **        **    **           **       **        **       ***********    **********   **      ***************    ***               ******************         \n");
+                    printf(" **        **    **           **       **        **                 **   *********    **     *****************   ***               ***                        \n");
+                    printf(" **        **    **           **      **         **                 **   **           **    ***             ***   ***              ***                        \n");
+                    printf(" **        **    **           ********           **       ***********    **           **   ***               ***    ***********    ******************         \n");
+                    printf(" **        **    **            *****             **        *********     **           **  ***                 ***    ***********   ******************         \n\n\n");
+                    printf(" #     #       ##        #         #####   #####    ######    #####   ####         ****                                                                       \n"); 
+                    printf(" #     #      #  #                 #    #  #    #   #        #       #    #        ****                                                                       \n");
+                    printf(" #     #     #    #      #         #    #  #    #   #        #      #      #       ****                                                                       \n");
+                    printf(" #######    ########     #         #####   #####    ######    ####  #      #       ****   ***                                                                 \n");
+                    printf(" #     #   #        #    #         #       # #      #             # #      #       ****   ***                                                                 \n");
+                    printf(" #     #  #          #   #         #       #  #     #             #  #    #        ************                                                               \n");
+                    printf(" #     # #            #  #         #       #   #    ######   #####    ####         ************                                                               \n");  
+                    printf("                                                                                          ***                                                                 \n");
+                    printf("                                                                                          ***                                                                 \n");
+		}
+				
+				sleep(3);
+                system("cls");
+				break;
+				
+	
+			
+}
+}
+
+    printf ("\n\n\n\n\n\n\n\n# Digitare 14 per tornare al menu' iniziale altrimenti qualsiasi tasto per uscire:  ");
+    printf("---------->>>>");
+	scanf("%d",&n);
+	sleep(1);
+	system("cls");
+	
+}
+while(n==14);
+
+
+
+
+
+
+	return 0;
+}
+
